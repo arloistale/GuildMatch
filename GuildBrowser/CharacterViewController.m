@@ -53,7 +53,7 @@
         
         [self setNetworkActivityIndicatorVisible:NO];
         
-        NSString *errorMessage = [NSString stringWithFormat:@"There was a problem loading Guild %@ on realm %@",aGuildName,aRealmName];
+        NSString *errorMessage = [NSString stringWithFormat:@"There was a problem loading Guild %@ on realm %@: %@", aGuildName, aRealmName, [error localizedDescription]];
         UIAlertView *loadAlert = [[UIAlertView alloc] initWithTitle:@"Error"
                                                             message:errorMessage
                                                            delegate:nil

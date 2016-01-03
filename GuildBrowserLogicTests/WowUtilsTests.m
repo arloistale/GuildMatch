@@ -56,7 +56,7 @@
     XCTAssertEqualObjects(@"Goblin", [WoWUtils raceFromRaceType:9]);
     XCTAssertEqualObjects(@"Blood Elf", [WoWUtils raceFromRaceType:10]);
     XCTAssertEqualObjects(@"Draenei", [WoWUtils raceFromRaceType:11]);
-    XCTAssertEqualObjects(@"Worgen", [WoWUtils raceFromRaceType:21]);
+    XCTAssertEqualObjects(@"Worgen", [WoWUtils raceFromRaceType:22]);
 }
 
 - (void)testQualityLookup {
