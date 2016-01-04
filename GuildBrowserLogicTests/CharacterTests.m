@@ -68,7 +68,7 @@
 }
 
 - (void)testCharacterItems {
-    XCTAssertEqualObjects(_testCharacter.neckItem.name,@"Stoneheart Chker", @"name is wrong");
+    XCTAssertEqualObjects(_testCharacter.neckItem.name,@"Stoneheart Choker", @"name is wrong");
     XCTAssertEqualObjects(_testCharacter.wristItem.name,@"Vicious Pyrium Bracers", @"name is wrong");
     XCTAssertEqualObjects(_testCharacter.waistItem.name,@"Girdle of the Queen's Champion", @"name is wrong");
     XCTAssertEqualObjects(_testCharacter.handsItem.name,@"Time Strand Gauntlets", @"name is wrong");
